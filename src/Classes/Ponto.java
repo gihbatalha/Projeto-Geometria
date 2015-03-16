@@ -34,9 +34,9 @@ public class Ponto {
 	  
 	public Color getCor() {
 	  	return cor;
-	  }
-	
-	public void desenhar(Color cor, Graphics g) {
+	 }
+
+	public void desenhar(Color cor, Graphics g){
 		  	g.setColor(cor);
 		  	g.drawLine(getX(),getY(),getX(),getY());
 	}
